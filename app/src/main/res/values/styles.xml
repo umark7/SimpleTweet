@@ -1,5 +1,6 @@
 <resources>
 
+    <color name="darkred">#FF0303</color>
     <style name="AppBaseTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!--
             Theme customizations available in newer API levels can go in
@@ -12,5 +13,16 @@
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
+
+    <style name="counterText">
+        <item name="android:textColor">@color/darkred</item>
+    </style>
+
+    <style name="counterOverride">
+
+    </style>
+
+
+
 
 </resources>
